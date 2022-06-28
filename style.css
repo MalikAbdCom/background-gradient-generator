@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right, #7a4343 , #1d441d);
+}
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    min-height: 20vh;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+h3[data-color-gradient]{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: wheat;
+    text-shadow: deepskyblue;
+    font-family: sans-serif;
+}
+h5  {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
